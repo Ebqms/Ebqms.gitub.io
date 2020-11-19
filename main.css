@@ -1,0 +1,45 @@
+html, body, div, h1, p, ul, li{
+  margin: 0;
+  padding: 0;
+  font-size: 100;
+}
+
+li{
+  list-style: none;
+}
+
+
+/* header */
+header{
+  padding: 3vw;
+  text-align: center;
+  background-color: rgb(113, 179, 247);
+}
+
+header h1{
+  color: rgb(244, 187, 101);
+  margin: 8px;
+}
+
+header p{
+  color: white;
+  margin-bottom: 8px;
+}
+
+nav{
+  display: block;
+  border: 1px solid grey;
+  height: 100%;
+}
+
+.usec{
+  display: block;
+  margin: 10px;
+  border: 1px solid grey;
+  width: 50%;
+  text-align: center;
+}
+
+.usec ul, li{
+  margin: 5px;
+}
